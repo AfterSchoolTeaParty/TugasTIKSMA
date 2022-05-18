@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif
+	background:#1a1a1a;
+}
+
+
+.atas{
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+	background-color: #a80016;
+}
+.atas p{
+	font-size: 1.2em;
+	margin-right: 20px;
+}
+.logo{
+	font-family: cursive;
+	letter-spacing: 3px;
+	height:80px;
+	align-items: center;
+	padding: 5px;
+}
+.logo h1{
+	margin-left: 5%;
+	font-size: 3.5em;
+	display: flex;
+	color: white;
+}
+nav{
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+}
+nav ul{
+	align-items: center;
+	padding: 5px;
+	display: flex;
+	list-style: none;
+	width: 40%;
+	justify-content: space-between;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 1em;
+}
+nav ul li a:hover{
+	color: white;
+	padding: 15px;
+	background-color: salmon;
+}
+nav .searchbar .formel{
+	padding: 5px;
+	display: flex;
+	justify-content: flex-center;
+
+}
+nav .searchbar .formel .sbar {
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+}
+.buttons{
+	margin-left: 5px;
+	color: white;
+	background-color: #a80016;
+	border: none;
+}
+
+.container{
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	padding: 20px;
+	background: #242424;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	flex-direction: row;
+	text-align: center;
+	color: white;
+}
+.content{
+	display: flex;
+}
+.contentz{
+	width: 75%;
+	margin: 0px auto;
+	padding: 5px;
+	background: #242424;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	display: flex;
+	border: 1px solid #2e3047;
+	border-radius: 5px 5px 5px 5px;
+	flex-direction: column;
+}
+
+.book{
+	border: 1px solid gray;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 10px;
+	flex: 1;
+	background-color: #8c8981;
+	height: 180px;
+
+}
+.book .gambar {
+	height: 150px;
+	background-color: #242424;
+
+}
+.book .gambar img{
+	margin:8px auto;
+	height: 90%;
+	width: 55%;
+}
+.book .konten{
+	text-align: center;
+	padding-bottom: 20px;
+	background-color: #8c8981;
+
+}
+
+.sidebar{
+	width: 20%;
+	margin: 0px auto;
+	padding: 5px;
+	background: #242424;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	flex-direction: column;
+}
+.sidebar .bars{
+	display: flex;
+	border: 1px solid #2e3047;
+	width: 95%;
+	height: 30%
+	margin: 0px auto;
+	padding: 5px;
+	background: #242424;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	flex-direction: column;
+}
+.sidebar .bars p{
+	text-align: left;
+	font-size: 0.8em;
+	color: white;
+}
+.sidebar .bars h2{
+	color:white;
+}
+.sidebar .btn{
+	padding: 5px;
+	color: white;
+	background-color: #a80016;
+	border: none;
+}
+.container2{
+	margin: 0px auto;
+	width: 90%;
+	text-align: center;
+}
+.page{
+	display: flex;
+	justify-content: center;
+	margin-left: 15px;
+	padding: 5px;
+	border: 1px solid gray;
+	width: 75%
+}
+
+/*For Booklist*/
+.contents{
+	width: 75%;
+	margin: 0px auto;
+	padding: 5px;
+	background: #242424;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid gray;
+	color: white;
+}
+.books{
+	padding: 5px;
+	border: 1px solid gray;
+	display: flex;
+	margin: 10px auto;
+	width: 45%;
+	height: 250px;
+	display: flex;
+}
+.books .images{
+	width: 70%;
+}
+.books .images img{
+	height: 90%; 
+	width: 40%;
+}
+.books .isi{
+	width: 30%;
+}
+.books .isi ul li{
+	list-style: none;
+}
+.books .isi ul li h2 a{
+	text-decoration: none;
+	color: white;
+}
+
+/*View.php*/
+.books .isiku{
+	width: 100%;
+}
+.books .isiku ul li{
+	list-style: none;
+}
+.books .isiku ul li h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+.container2 .page a{
+	color: white;
+	margin: 5px;
+}
